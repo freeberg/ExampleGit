@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    
+    <!-- Database Configuration -->
+    <database>
+        <host>localhost</host>
+        <port>3306</port>
+        <username>db_user</username>
+        <password>db_password</password>
+        <databaseName>my_database</databaseName>
+        <connectionTimeout>30</connectionTimeout>
+    </database>
+
+    <!-- Logging Configuration -->
+    <logging>
+        <level>INFO</level>
+        <logFilePath>/var/logs/myapp.log</logFilePath>
+        <maxFileSize>10MB</maxFileSize>
+        <maxBackupFiles>5</maxBackupFiles>
+    </logging>
+
+    <!-- Application Settings -->
+    <appSettings>
+        <appName>MyWebApp</appName>
+        <version>1.0.0</version>
+        <maxUsers>100</maxUsers>
+        <enableFeatureX>true</enableFeatureX>
+        <supportEmail>support@mywebapp.com</supportEmail>
+    </appSettings>
+
+</configuration>
