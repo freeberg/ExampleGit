@@ -3,7 +3,7 @@
     
     <!-- Database Configuration -->
     <database>
-        <host>localhost</host>
+        <host>10.103.4.56</host>
         <port>3306</port>
         <username>db_user</username>
         <password>db_password</password>
@@ -13,10 +13,10 @@
 
     <!-- Logging Configuration -->
     <logging>
-        <level>INFO</level>
+        <level>DEBUG</level>
         <logFilePath>/var/logs/myapp.log</logFilePath>
-        <maxFileSize>10MB</maxFileSize>
-        <maxBackupFiles>5</maxBackupFiles>
+        <maxFileSize>1000MB</maxFileSize>
+        <maxBackupFiles>40</maxBackupFiles>
     </logging>
 
     <!-- Application Settings -->
